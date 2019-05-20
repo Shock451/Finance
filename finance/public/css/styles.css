@@ -1,0 +1,60 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+.table, th, td
+{
+    border: 1px transparent blue;
+    border-collapse: collapse;
+    width: 40%;
+    padding: 10px;
+    text-align: left;
+    background-color: linen;
+}
+
+#bottom1
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+#bottom2
+{
+    /* Increase bottom's font size */
+    font-size: larger;
+    font-family:,'Palatino Linotype', 'Book Antiqua', Palatino, Serif;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+.padding
+{
+    padding-right: 5px;
+    padding-left: 5px;    
+}    
+
